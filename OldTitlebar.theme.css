@@ -1,0 +1,42 @@
+//META{"name":"Old Titlebar","description":"Get the old titlebar back!","author":"Corbs","version":"2"}*//{}
+
+/* Moving Channel Header */
+
+.theme-dark .title-3qD0b- {
+    margin-right: 110px !important;
+}
+
+/* Buttons */
+
+.winButton-iRh8-Z {
+    top: 31px !important;
+    width: 38px !important;
+    right: 5px !important;
+}
+
+/* Moving Discord Logo down and moving the server list down */
+
+.guilds-wrapper .scroller-wrap {
+    margin-top: 25px !important;
+}
+
+/* Remove Titlebar background */
+
+.typeWindows-1za-n7 {
+    height: 18px;
+    margin-top: -17px;
+}
+
+
+
+/*     -webkit-app-region: drag;    */
+
+
+
+
+
+
+
+.theme-dark .channelName-3stJzi, .theme-dark .groupDM-3qU0Ks .channelName-3stJzi, .theme-dark .groupDMManaged-1GyXtq .channelName-3stJzi, .theme-dark .input-autosize-input, .theme-dark .input-autosize-input:focus {
+  -webkit-app-region: drag; 
+}

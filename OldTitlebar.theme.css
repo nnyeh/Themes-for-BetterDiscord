@@ -1,4 +1,4 @@
-//META{"name":"Old Titlebar","description":"Get the old titlebar back!","author":"Corbs","version":"2"}*//{}
+//META{"name":"Old Titlebar","description":"Get the old titlebar back!","author":"Corbs","version":"3"}*//{}
 
 /* Moving Channel Header */
 
@@ -29,8 +29,11 @@
 
 
 
-/*     -webkit-app-region: drag;    */
 
+
+.headerBar-UHpsPw {
+    margin-right: 110px;
+}
 
 
 

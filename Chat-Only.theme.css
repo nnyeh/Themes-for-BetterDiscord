@@ -1,0 +1,78 @@
+//META{"name":"Chat Only - AuoHide Theme","description":"Servers list, Members tab, Channel list, Channel header, and Friends list will auto hide. You have to hover for them to expand open","author":"Corbs","version":"1"}*//{}
+
+
+/* Server List */
+
+.guilds-wrapper {
+	margin-left: -60px;
+	transition: all 200ms ease;
+	z-index: 100;
+}
+
+.guilds-wrapper:hover {
+	margin-left: -60px;
+	transition: all 200ms ease;
+	transform: translateX(60px);
+	z-index: 100;
+
+}
+
+/* */
+
+/* Channel Header */
+
+.titleWrapper-3Vi_wz {
+	margin-top: -40px;
+	transition: all 500ms ease;
+}
+
+.titleWrapper-3Vi_wz:hover {
+	margin-top: -40px;
+	transition: all 200ms ease;
+	transform: translateY(40px);
+	z-index: 100;
+}
+
+/* */
+
+/* Channel List */
+
+.channels-3g2vYe {
+	transition: all 200ms ease;
+	margin-left: -230px;
+}
+
+.channels-3g2vYe:hover {
+	transition: all 200ms ease;
+	margin-left: 0px;
+}
+
+/* */
+
+/* Members Tab */
+
+.membersWrap-3wRngy {
+    margin-right: -225px;
+    transition: all 200ms ease;
+    z-index: 100;
+
+}
+
+.membersWrap-3wRngy:hover {
+	transform: translateX(-235px);
+    margin-right: -235px;
+	transition: all 200ms ease;
+	z-index: 100;
+}
+
+/* */
+
+
+/* Theming */
+.theme-dark .chat form {
+    box-shadow: 0 0px 0 hsla(0,0%,100%,.06);
+}
+
+.theme-dark .message-group:not(.has-divider) {
+    border-bottom-color: hsla(0, 0%, 100%, 0);
+}

@@ -1,11 +1,11 @@
-//META{"name":"Expose","description":" Support Server for Expose X: https://discord.gg/Pdz7jAH. Background is one entire color and you can add a custom background. Buttons are round and sexy blue. Supports the following plugins: Better Reddux, Server Folders, Birthday Plugin, and Clock plugin.","author":"Corbs","version":"LOL"}*//{}
+//META{"name":"Expose X","description":" Support Server for Expose X: https://discord.gg/Pdz7jAH. Background is one entire color and you can add a custom background. Buttons are round and sexy blue. Supports the following plugins: Better Reddux, Server Folders, Birthday Plugin, and Clock plugin.","author":"Corbs","version":"LOL"}*//{}
 
-@import url(https://heftiest-toucan-0279.dataplicity.io/Discord/ExposeXRaw.theme.css);
+@import url(https://raw.githubusercontent.com/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/ExposeXRaw.theme.css);
 
 :root {
     --accent: rgb(114, 137, 218) !important; /* use this to change accent color */
 }
 
 .appMount-3VJmYg {
-    background-image: url(https://cdn.discordapp.com/attachments/430388043594334210/434863940762337298/cat_wallpaper_discord_by_azagwen-dbhvtdi.png); /* Please use this to change background image */
+    background-image: url(IMAGE URL HERE); /* Please use this to change background image */
 }

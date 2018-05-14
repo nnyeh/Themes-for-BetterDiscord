@@ -102,15 +102,6 @@
     width: 168px;
 }
 
-/* Disconnect from call and Connection Info buttons */
-
-.buttonInfo-3nkbOt {
-    background-image: url("https://discordapp.com/assets/9ff6ceb7abcc4920dd468c954f12685b.svg");
-}
-.buttonDisconnect-3W_SJc {
-    background-image: url("https://discordapp.com/assets/1ac919360611a8962ea15859f6c27d9c.svg");
-}
-
 /* Verify your phone */
 
 .theme-dark .input-3yHnCz {
@@ -118,8 +109,6 @@
     color: #f6f6f7;
     border-radius: 50px;
 }
-
-
 
 /* Titlebar */
 
@@ -1832,15 +1821,6 @@
     opacity: .4;
 }
 
-.buttonInfo-3nkbOt {
-    background-image: url(/assets/9ff6ceb7abcc4920dd468c954f12685b.svg);
-}
-
-.buttonDisconnect-3W_SJc {
-    background-image: url(/assets/1ac919360611a8962ea15859f6c27d9c.svg);
-}
-
-
 .main {
     height: 80px;
     position: relative;
@@ -2166,24 +2146,6 @@
     background: rgba(28, 61, 128, 0);
     box-shadow: 0 0px 0 rgba(0,0,0,.2), 0 0px 0 rgba(0,0,0,.06);
 }
-.container-1UB9sr {
-    -ms-flex-align: center;
-    -ms-flex-negative: 0;
-    -webkit-box-align: center;
-    align-items: center;
-    background: rgba(9, 74, 171, 0);
-    border-bottom: 1px solid rgba(54, 57, 63, 0);
-    color: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-shrink: 0;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 10px;
-}
-
-
 
 .container-PNkimc {
     background-color: transparent;

@@ -1955,6 +1955,23 @@
     border-radius: 50px;
 }
 
+.accountDetails-3k9g4n .username {
+    display: block;
+    max-width: 210px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.accountDetails-3k9g4n .discriminator {
+    display: block;
+    font-size: 10px;
+    margin-top: 4px;
+    opacity: .4;
+}
+
+
+
 .actionRed-1J19Tx {
     background-color: #932b2b;
     border-radius: 50px;

@@ -1957,7 +1957,7 @@
 
 .accountDetails-3k9g4n .username {
     display: block;
-    max-width: 210px;
+    max-width: 210px !important;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -1965,7 +1965,7 @@
 
 .accountDetails-3k9g4n .discriminator {
     display: block;
-    font-size: 10px;
+    font-size: 10px !important;
     margin-top: 4px;
     opacity: .4;
 }

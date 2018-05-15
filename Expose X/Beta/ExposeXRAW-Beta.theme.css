@@ -8,6 +8,17 @@
 
 /* TO CHANGE BACKGROUND IMAGE, YOU NEED A CODE FROM THE EXPOSE.THEME.CSS FILE */
 
+/* Music Player | New Feature in Discord | Date: 5/14/18 */
+
+.audioControls-2HsaU6 {
+    border-radius: 113px;
+}
+
+.theme-dark .wrapperAudio-1jDe0Q {
+    background-color: rgba(47, 49, 54, 0);
+    border-color: rgba(47, 49, 54, 0);
+}
+
 /* Status Icon in Members Tab */
 
 .avatar-small .status {

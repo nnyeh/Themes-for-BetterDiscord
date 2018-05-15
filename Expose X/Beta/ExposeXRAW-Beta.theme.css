@@ -1849,21 +1849,6 @@
     transition: background-color .15s ease,border .15s ease;
 }
 
-.accountDetails-3k9g4n .username {
-    display: block;
-    max-width: 0px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.accountDetails-3k9g4n .discriminator {
-    display: block;
-    font-size: 0px;
-    margin-top: 4px;
-    opacity: .4;
-}
-
 .main {
     height: 80px;
     position: relative;

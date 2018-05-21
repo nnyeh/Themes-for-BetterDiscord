@@ -1,7 +1,7 @@
 //META{"name":"Expose X","description":" Support Server for Expose X: https://discord.gg/Pdz7jAH. Background is one entire color and you can add a custom background. Buttons are round and sexy blue. Supports the following plugins: Better Reddux, Server Folders, Birthday Plugin, and Clock plugin.","author":"Corbs","version":"AutoUpdate"}*//{}
 
 :root {
-    --version: "Expose X v1.0.42";
+    --version: "Expose X v1.0.5";
     --greybackground: #33363B !important;
     --accent: rgb(114, 137, 218);
 }
@@ -27,6 +27,8 @@
     height: 10px;
     right: -1783px;
     width: 2110px;
+    
+
 }
 
 .status-2s6iDp {
@@ -37,11 +39,15 @@
     height: 10px;
     right: -20px;
     width: 10px;
+    
+
 }
 
 .memberInner-2CPc3V {
     width: 170px;
     margin-left: 20px;
+    
+
 }
 
 .members-1998pB .avatar-16XVId .status-2s6iDp {
@@ -49,6 +55,8 @@
     transform: rotateZ(90deg);
     margin-top: 0px;
     right: -22px;
+    
+
 }
 
 /* Friend icon */
@@ -79,6 +87,8 @@
     text-shadow: 0 1px 0 rgba(0,0,0,.25);
     top: 0px;
     left: 0px;
+    
+
 }
 
 .guilds-wrapper .guilds .guild .badge {
@@ -143,6 +153,8 @@
     left: 247px;
     bottom: 5px;
     width: 168px;
+    
+
 }
 
 /* Verify your phone */
@@ -158,12 +170,16 @@
 .wordmark-2iDDfm {
     left: 14px;
     top: 6px;
+    
+
 }
 
 .typeWindows-1za-n7 {
     height: 18px;
     margin-top: 0px;
     background-color: rgba(0, 0, 0, 0.5);
+    
+
 }
 
 .winButton-iRh8-Z {
@@ -175,12 +191,16 @@
     position: relative;
     top: 0px;
     width: 28px;
+    
+
 }
 
 /* fixed over effect on members tab */
 
 .membersWrap-2h-GB4:hover {
     margin-right: 0px !important;
+    
+
 }
 
 
@@ -848,6 +868,7 @@
     -webkit-transition: background-color .15s ease;
     align-items: cente;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0), 0 2px 0 rgba(0, 0, 0, 0);
+    
 }
 
 .header-2o-2hj:hover {
@@ -1223,29 +1244,36 @@
 
 /* Right-Click Menu */
 
-.theme-dark .itemGroup-1tL0uz {
-    border-color: hsla(0, 0%, 96%, 0);
-}
-
 .theme-dark.contextMenu-HLZMGh {
-    -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0,0,0,0);
+    -webkit-box-shadow: 0 0 0px rgba(0,0,0,.0), 0 0px 0px rgba(0,0,0,0);
     background: rgba(40, 43, 48, 0);
-    box-shadow: 0 0 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0,0,0,0);
+    box-shadow: 0 0 0px rgba(0,0,0,.0), 0 0px 0px rgba(0,0,0,0);
+    border-radius: 10px;
+    
 }
 
-.theme-dark .itemSubMenu-1vN_Yn:hover {
-    background: rgb(37, 38, 41) url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) no-repeat 155px 50%;
+.theme-dark .itemSubMenu-1vN_Yn {
+    background-color: #26282b;
+    border-radius: 20px;
 }
 
 .theme-dark .item-1Yvehc {
     color: hsla(0,0%,100%,.6);
-    background-color: #252629;
+    background-color: #26282b;
+    border-radius: 20px;
+}
+
+.theme-dark .itemGroup-1tL0uz {
+    border-color: hsla(0, 0%, 96%, 0);
+}
+
+.theme-dark .checkbox .checkbox-inner span {
+    border-color: hsla(0,0%,100%,.2);
     border-radius: 50px;
 }
 
-.checkbox .checkbox-inner span {
-    border-radius: 50px;
-}
+
+
 
 /* */
 
@@ -1937,6 +1965,21 @@
     height: 52px;
     margin-bottom: 5px;
     padding: 0 10px;
+    
+}
+
+#pluginNotice {
+    -webkit-app-region: drag;
+    border-radius: 100px;
+    top: 40px;
+    margin-top: -38px;
+    width: 90%;
+    left: 3%;
+}
+
+.DevilBro-notice {
+    -webkit-app-region: drag;
+    border-radius: 20px !important;
 }
 
 .guilds-wrapper .guilds .guild.selected {
@@ -2197,6 +2240,7 @@
     contain: layout;
     min-height: 0;
     position: relative;
+    
 }
 
 .guilds-wrapper {
@@ -2214,6 +2258,7 @@
     overflow: hidden;
     position: relative;
     width: 70px;
+    
 }
 
 .guilds-wrapper .guilds-add {
@@ -2231,12 +2276,14 @@
     text-align: center;
     transition: border-color .25s ease,color .25s ease;
     width: 100%;
+    
 }
 
 
 
 .theme-dark .channel-members {
     background-color: transparent;
+    
 }
 
 .guilds-wrapper .guilds .guild .guild-inner {
@@ -2247,16 +2294,21 @@
     line-height: 50px;
     overflow: hidden;
     text-align: center;
+    
+
 }
 
 .theme-dark .chat>.content {
     background-color: transparent;
+    
 }
 
 .theme-dark .title-3qD0b- {
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
     background: rgba(54, 57, 62, 0);
     box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    
+
 }
 
 .theme-dark .search .search-bar {
@@ -2273,8 +2325,6 @@
     flex-shrink: 0;
     width: 240px;
 }
-
-
 
 .innerNoAutocomplete-1WpcVO {
     border-radius: 50px;
@@ -2478,6 +2528,8 @@
     padding-left: 25px;
     align-items: center;
     height: calc(105% - 105px);
+    
+
 }
 
 .typing-2GQL18 .ellipsis-19qdx6 {
@@ -2511,6 +2563,7 @@
     margin-left: 0px;
     margin-bottom: -20px;
     overflow: hidden;
+    
 }
 
 
@@ -2518,6 +2571,7 @@
 
 .theme-dark .members-1998pB {
     background-color: rgba(47, 49, 54, 0);
+    
 }
 
 .guilds-wrapper .guilds .guild .avatar-small {
@@ -2527,6 +2581,8 @@
     height: 50px;
     margin: 0;
     width: 50px;
+    
+
 }
 
 .title-3qD0b-, .titleCall-_b9o8P {
@@ -2891,6 +2947,7 @@ div.avatar-large {
 .theme-dark .message-group:not(.has-divider) {
     border-bottom-color: hsla(0,0%,100%,.04);
     margin-top: 30px;
+    
 }
 
 .theme-dark .message-group .comment .markup {
@@ -3077,10 +3134,11 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
     padding-left: 25px; 
     align-items: center;
     height: calc(100% - 105px);
+    
 }
   .guilds-wrapper .guilds .guild+.guild {
     display: block;
-    transition: all 0.2s ease !important;
+    
 }
 
   .guilds-wrapper .guild.guilds-add {

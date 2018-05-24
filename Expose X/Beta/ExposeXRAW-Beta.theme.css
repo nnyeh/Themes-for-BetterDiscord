@@ -8,7 +8,7 @@
 
 /* TO CHANGE BACKGROUND IMAGE, YOU NEED A CODE FROM THE EXPOSE.THEME.CSS FILE */
 
-/* Hiding the Exit button, don't ask why */
+/* Hiding the Exit and Maximize button, don't ask why */
 
 .winButton-iRh8-Z {
     -webkit-app-region: no-drag;
@@ -19,7 +19,22 @@
     position: relative;
     top: 0px;
     width: 28px;
-    left: 29px;
+}
+
+.winButtonClose-1HsbF- {
+    left: 50px;
+}
+
+.winButton-iRh8-Z {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    height: 22px;
+    opacity: .6;
+    pointer-events: auto;
+    position: relative;
+    top: 0px;
+    width: 28px;
+    left: 57px;
 }
 
 /* Music Player | New Feature in Discord | Date: 5/14/18 */

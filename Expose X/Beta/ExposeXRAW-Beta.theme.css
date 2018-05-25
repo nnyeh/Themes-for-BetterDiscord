@@ -8,6 +8,18 @@
 
 /* TO CHANGE BACKGROUND IMAGE, YOU NEED A CODE FROM THE EXPOSE.THEME.CSS FILE */
 
+/* Hiding Minize button, on Mac */
+
+.macButtonMinimize-3EJ6wo {
+    background-color: #fdbc40;
+    margin-top: -150px;
+}
+
+.macButtonClose-MwZ2nf {
+    background-color: #fc615d;
+    margin-left: 21px;
+}
+
 /* Hiding the Exit and Maximize button, don't ask why */
 
 .winButton-iRh8-Z {

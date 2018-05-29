@@ -8,6 +8,243 @@
 
 /* TO CHANGE BACKGROUND IMAGE, YOU NEED A CODE FROM THE EXPOSE.THEME.CSS FILE */
 
+
+
+
+
+
+/*=============================================
+=               Status Picker                 =        From Materialized (FrozySeven)
+=============================================*/            MODIFIED BY CORBS 
+
+.popout-3sVMXz.popoutTop-3uu9vG-left {
+	box-shadow: none;
+}
+@keyframes status-picker-bg { 
+    to {
+        background-color: rgba(0,0,0,0.85);
+    } 
+}
+.menu-Sp6bN1.alt-3btY0e {
+    animation: status-picker-bg 200ms linear;
+    animation-fill-mode: forwards;
+    background-color:transparent;
+    box-shadow: 0!important;
+    border-radius: 0;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    position: fixed;
+    pointer-events: visible;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+    z-index: 1000000;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl {
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 3px;
+    width: auto;
+    display: inline-block;
+    background: rgba(14, 14, 14, 0)!important;
+    animation: statuspicker-status 300ms ease;
+    animation-delay: 0ms;
+    animation-fill-mode: forwards;
+    transition: all 0.2s ease!important;
+}
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:hover {
+    background: transparent !important;
+    transition: all 0.2s ease!important;
+    margin-top: -10px;
+}
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:active {
+    background: transparent !important;
+    margin-top: 10px;
+}
+.menu-Sp6bN1.alt-3btY0e .separator-2zcjq8 {
+	display: none;
+}
+.menu-Sp6bN1.alt-3btY0e .status {
+	border-radius: 0;
+	width: 55px;
+	height: 55px;
+	box-sizing: border-box;
+	pointer-events: initial;
+	opacity: 1;
+	background-position: center center;
+	background-repeat: no-repeat;
+	filter: brightness(87.5%);
+    will-change: transform;
+    margin-right: 0!important;
+    backface-visibility: initial;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+@keyframes statuspicker-status {
+    from {
+        opacity: 0;
+        transform: translate(0, 100%);
+    }
+    to {
+        opacity: 1;
+    }
+}
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl .status {
+    border-radius: 100px;
+    transition: all 0.2s ease!important;
+}
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl .status:hover {
+    transition: all 0.2s ease!important;
+}
+.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH > div {
+    font-size: 0px;
+    margin-left: 10px;
+}
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-of-type(1) .status {
+    z-index: 5;
+	background-color:#43b581;
+    animation: statuspicker-status 300ms ease;
+    animation-delay: 0ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.alt-3btY0e .item-1GzJrl:nth-of-type(1) .statusIconText-3b4TkH > div {
+    color: #43b581;
+    animation: statuspicker-status 300ms ease;
+    animation-delay: 50ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-of-type(3) .status {
+    z-index: 4;
+    background-color: #faa61a;
+    animation: statuspicker-status 300ms ease;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.alt-3btY0e .item-1GzJrl:nth-of-type(3) .statusIconText-3b4TkH > div {
+    color: #faa61a;
+    animation: statuspicker-status 300ms ease;
+    animation-delay: 150ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-of-type(4) .status {
+    z-index: 3;
+    background-color: #f04747;
+    animation: statuspicker-status 300ms ease;
+    animation-delay: 200ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.alt-3btY0e .item-1GzJrl:nth-of-type(4) .statusIconText-3b4TkH > div {
+    color: #f04747;
+    animation: statuspicker-status 300ms ease;
+    animation-delay: 250ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.alt-3btY0e .item-1GzJrl .helper-2c73HK {
+    opacity: 0;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+}
+.alt-3btY0e .item-1GzJrl:nth-of-type(4) .helper-2c73HK  {
+    display: flex;
+    align-items: center;
+}
+.alt-3btY0e .item-1GzJrl:nth-of-type(4):hover .helper-2c73HK  {
+    background-color: #C03F3F;
+    color: white;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    position: absolute;
+    margin: auto;
+    top: 340px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 550px;
+    height: 20px;
+    padding: 12px 5px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    pointer-events: none;
+    opacity: 1;
+    animation: opacity 300ms ease;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-of-type(5) .status {
+	z-index: 2;
+    background-color: #57616D;
+    animation: statuspicker-status 300ms ease;
+    animation-delay: 300ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.alt-3btY0e .item-1GzJrl:nth-of-type(5) .statusIconText-3b4TkH > div {
+    color: #646f7d;
+    animation: statuspicker-status 300ms ease;
+    animation-delay: 350ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.alt-3btY0e .item-1GzJrl:last-child .helper-2c73HK:last-child {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+}
+.alt-3btY0e .item-1GzJrl:nth-of-type(5):hover .helper-2c73HK:last-child  {
+    background-color: #3A3E43;
+    color: white;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    position: absolute;
+    margin: auto;
+    top: 340px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 550px;
+    height: 20px;
+    padding: 12px 5px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    pointer-events: none;
+    opacity: 1;
+    animation: opacity 300ms ease;
+}
+
+
+/* ===================== */
+/*   End Status Picker   */
+
+
+
+
+
+
+
+
+
+
 /* Background of Friends Icon */
 
 .bd-blue *[style*="background-color: rgb(114, 137, 218)"] {
@@ -3439,287 +3676,6 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
     font-size: 0px;
 }
 /* end of create or join guild */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*=============================================
-=               Status Picker                 =        From Materialized (FrozySeven)
-=============================================*/            MODIFIED BY CORBS 
-
-.popout-3sVMXz.popoutTop-3uu9vG-left {
-	box-shadow: none;
-}
-@keyframes status-picker-bg { 
-    to {
-        background-color: rgba(0,0,0,0.85);
-    } 
-}
-.menu-Sp6bN1.alt-3btY0e {
-    animation: status-picker-bg 200ms linear;
-    animation-fill-mode: forwards;
-    background-color:transparent;
-    box-shadow: 0!important;
-    border-radius: 0;
-    display: flex;
-	align-items: center;
-	justify-content: center;
-    position: fixed;
-    pointer-events: visible;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-    z-index: 1000000;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-}
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl {
-    padding: 15px;
-    margin-left: 10px;
-    border-radius: 3px;
-    width: auto;
-    display: inline-block;
-    background: rgba(14, 14, 14, 0)!important;
-    animation: statuspicker-status 300ms ease;
-    animation-delay: 0ms;
-    animation-fill-mode: forwards;
-    transition: all 0.2s ease!important;
-}
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:hover {
-    background: transparent !important;
-    transition: all 0.2s ease!important;
-    margin-top: -10px;
-}
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:active {
-    background: transparent !important;
-    margin-top: 10px;
-}
-.menu-Sp6bN1.alt-3btY0e .separator-2zcjq8 {
-	display: none;
-}
-.menu-Sp6bN1.alt-3btY0e .status {
-	border-radius: 0;
-	width: 55px;
-	height: 55px;
-	box-sizing: border-box;
-	pointer-events: initial;
-	opacity: 1;
-	background-position: center center;
-	background-repeat: no-repeat;
-	filter: brightness(87.5%);
-    will-change: transform;
-    margin-right: 0!important;
-    backface-visibility: initial;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-}
-
-@keyframes statuspicker-status {
-    from {
-        opacity: 0;
-        transform: translate(0, 100%);
-    }
-    to {
-        opacity: 1;
-    }
-}
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl .status {
-    border-radius: 100px;
-    transition: all 0.2s ease!important;
-}
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl .status:hover {
-    transition: all 0.2s ease!important;
-}
-.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH > div {
-    font-size: 0px;
-    margin-left: 10px;
-}
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-of-type(1) .status {
-    z-index: 5;
-	background-color:#43b581;
-    animation: statuspicker-status 300ms ease;
-    animation-delay: 0ms;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-.alt-3btY0e .item-1GzJrl:nth-of-type(1) .statusIconText-3b4TkH > div {
-    color: #43b581;
-    animation: statuspicker-status 300ms ease;
-    animation-delay: 50ms;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-of-type(3) .status {
-    z-index: 4;
-    background-color: #faa61a;
-    animation: statuspicker-status 300ms ease;
-    animation-delay: 100ms;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-.alt-3btY0e .item-1GzJrl:nth-of-type(3) .statusIconText-3b4TkH > div {
-    color: #faa61a;
-    animation: statuspicker-status 300ms ease;
-    animation-delay: 150ms;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-of-type(4) .status {
-    z-index: 3;
-    background-color: #f04747;
-    animation: statuspicker-status 300ms ease;
-    animation-delay: 200ms;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-.alt-3btY0e .item-1GzJrl:nth-of-type(4) .statusIconText-3b4TkH > div {
-    color: #f04747;
-    animation: statuspicker-status 300ms ease;
-    animation-delay: 250ms;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-
-.alt-3btY0e .item-1GzJrl .helper-2c73HK {
-    opacity: 0;
-    display: block;
-    position: fixed;
-    bottom: 20px;
-}
-.alt-3btY0e .item-1GzJrl:nth-of-type(4) .helper-2c73HK  {
-    display: flex;
-    align-items: center;
-}
-.alt-3btY0e .item-1GzJrl:nth-of-type(4):hover .helper-2c73HK  {
-    background-color: #C03F3F;
-    color: white;
-    display: flex;
-	align-items: center;
-	justify-content: center;
-    position: absolute;
-    margin: auto;
-    top: 340px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 550px;
-    height: 20px;
-    padding: 12px 5px;
-    border-radius: 25px;
-    font-size: 16px;
-    font-weight: 100;
-    text-align: center;
-    pointer-events: none;
-    opacity: 1;
-    animation: opacity 300ms ease;
-}
-
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-of-type(5) .status {
-	z-index: 2;
-    background-color: #57616D;
-    animation: statuspicker-status 300ms ease;
-    animation-delay: 300ms;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-.alt-3btY0e .item-1GzJrl:nth-of-type(5) .statusIconText-3b4TkH > div {
-    color: #646f7d;
-    animation: statuspicker-status 300ms ease;
-    animation-delay: 350ms;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-.alt-3btY0e .item-1GzJrl:last-child .helper-2c73HK:last-child {
-    display: block;
-    position: fixed;
-    bottom: 20px;
-}
-.alt-3btY0e .item-1GzJrl:nth-of-type(5):hover .helper-2c73HK:last-child  {
-    background-color: #3A3E43;
-    color: white;
-    display: flex;
-	align-items: center;
-	justify-content: center;
-    position: absolute;
-    margin: auto;
-    top: 340px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 550px;
-    height: 20px;
-    padding: 12px 5px;
-    border-radius: 25px;
-    font-size: 16px;
-    font-weight: 100;
-    text-align: center;
-    pointer-events: none;
-    opacity: 1;
-    animation: opacity 300ms ease;
-}
-
-
-/* ===================== */
-/*   End Status Picker   */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -3674,25 +3674,7 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
 
 
 
-/* Avatar stuff */
 
-.avatar-3EQepX:hover {
-    transform: scale(1.05);
-    transition: all 200ms ease;
-    box-shadow: box-shadow: 0 0 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0,0,0,.1);
-}
-
-.maskProfile-1ObLFT:active {
-    border-radius: 0px !important;
-}
-
-.avatar-3EQepX:active {
-    transform: scale(3) translateX(80px) translateY(-10px);
-    border-radius: 0px;
-    transition: all 200ms ease;
-    box-shadow: box-shadow: 0 0 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0,0,0,.1);
-    z-index: 20000000000000000000000000000000000;
-}
 
 .avatar-3EQepX {
     transition: all 200ms ease;

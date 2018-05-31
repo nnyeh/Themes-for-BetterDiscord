@@ -309,10 +309,10 @@
 /* Friend icon */
 
 .guilds-wrapper .guilds .friends-icon {
-    background-image: url(https://cdn.discordapp.com/attachments/433250431255445504/443433109489188875/FriendsIcon.png);
+    background-image: url(https://i.imgur.com/lPF4z01.png);
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: 32px 32px;
+    background-size: 22px 22px;
     height: 50px;
     width: 50px;
 }
@@ -1942,6 +1942,7 @@
 
 .nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI {
     color: white !important;
+    text-shadow: 0 0 3px rgb(255, 255, 255);
 }
 
 .theme-dark .cardPrimary-1Hv-to {
@@ -2200,7 +2201,6 @@
     background-color: rgba(0,0,0,.05);
     position: relative;
     transition: 500ms cubic-bezier(.4,0,0,1)!important;
-
 }
 
 .chat .new-messages-bar {

@@ -8,7 +8,26 @@
 
 /* TO CHANGE BACKGROUND IMAGE, YOU NEED A CODE FROM THE EXPOSE.THEME.CSS FILE */
 
+/* Titlebar buttons */
 
+:root {
+    --i-tbr-btninvert: 0%;
+    --i-tbr-closeimg: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    --i-tbr-maximizeimg: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    --i-tbr-minimizeimg: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); }
+  
+
+
+      .titleBar-AC4pGV .winButton-iRh8-Z:hover {
+        opacity: .8; }
+    .titleBar-AC4pGV div:nth-of-type(2) {
+      background-image: var(--i-tbr-closeimg); }
+    .titleBar-AC4pGV div:nth-of-type(3) {
+      background-image: var(--i-tbr-maximizeimg); }
+    .titleBar-AC4pGV div:nth-of-type(4) {
+      background-image: var(--i-tbr-minimizeimg); }
+    .titleBar-AC4pGV .wordmark-2iDDfm, .titleBar-AC4pGV .winButton-iRh8-Z svg {
+      display: none; }
 
 
 
@@ -274,36 +293,6 @@
     background-color: white;
     border-radius: 20px;
     margin-top: 4px;
-}
-
-/* Hiding the Exit and Maximize button, don't ask why */
-
-.winButton-iRh8-Z {
-    -webkit-app-region: no-drag;
-    cursor: pointer;
-    height: 22px;
-    opacity: .6;
-    pointer-events: auto;
-    position: relative;
-    top: 0px;
-    width: 28px;
-    border-radius: 0px 0px 0px 15px;
-}
-
-.winButtonClose-1HsbF- {
-    left: 50px;
-}
-
-.winButton-iRh8-Z {
-    -webkit-app-region: no-drag;
-    cursor: pointer;
-    height: 22px;
-    opacity: .6;
-    pointer-events: auto;
-    position: relative;
-    top: 0px;
-    width: 28px;
-    left: 57px;
 }
 
 /* Music Player | New Feature in Discord | Date: 5/14/18 */
@@ -3460,7 +3449,7 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
   }
   .guilds-wrapper .scroller-wrap {
       width: 200px;
-      margin-top: 9px;
+      margin-top: -9px;
   }
 
   .system-message .system-message-icon {

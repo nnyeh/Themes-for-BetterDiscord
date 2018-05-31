@@ -1,7 +1,7 @@
 //META{"name":"Expose X","description":" Support Server for Expose X: https://discord.gg/Pdz7jAH. Background is one entire color and you can add a custom background. Buttons are round and sexy blue. Supports the following plugins: Better Reddux, Server Folders, Birthday Plugin, and Clock plugin.","author":"Corbs","version":"AutoUpdate"}*//{}
 
 :root {
-    --version: "Expose X v1.0.51";
+    --version: "Expose X v1.0.6";
     --greybackground: #33363B !important;
     --accent: rgb(114, 137, 218);
 }

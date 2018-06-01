@@ -7,7 +7,8 @@
 
 /* TO CHANGE BACKGROUND IMAGE, YOU NEED A CODE FROM THE EXPOSE.THEME.CSS FILE */
 
-/* Titlebar buttons */ /* Titlbar code by intrnl, modified by Corbs */
+
+/* Titlebar buttons */
 
 :root {
     --i-tbr-btninvert: 0%;
@@ -28,7 +29,12 @@
     .titleBar-AC4pGV .wordmark-2iDDfm, .titleBar-AC4pGV .winButton-iRh8-Z svg {
       display: none; }
 
+/* Auto Complete menu above chat box */
 
+.theme-dark .autocomplete-1vrmpx {
+    background-color: rgba(47, 49, 54, 0.85);
+    border-radius: 20px;
+}
 
 
 /*=============================================
@@ -1476,6 +1482,25 @@
     background-color: transparent;
 }
 
+/* Fixing accept and ignore button */
+
+.lookInverted-2D7oAl.colorGreen-29iAKY {
+ background-color: transparent;
+    color: #43b581;
+}
+
+.lookInverted-2D7oAl.colorGreen-29iAKY:hover {
+    background-color: transparent;
+       color: #43b581;
+   }
+   
+
+   .lookInverted-2D7oAl.colorGreen-29iAKY:active {
+    background-color: transparent;
+       color: #43b581;
+   }
+
+   
 
 
 /* Right-Click Menu */
@@ -1758,19 +1783,6 @@
     flex-wrap: wrap;
     padding: 2px;
     position: relative;
-}
-
-
-
-.private-channels .search-bar {
-    -webkit-box-shadow: 0 0px 0 rgba(0,0,0,.2), 0 0px 0 rgba(0,0,0,.06);
-    background-color: transparent;
-    border-radius: 0;
-    box-shadow: 0 0px 0 rgba(0,0,0,.2), 0 0px 0 rgba(0,0,0,.06);
-    height: 48px;
-    padding: 0 12px;
-    position: relative;
-    z-index: 1;
 }
 
 #clockPluginClock {
@@ -2860,7 +2872,7 @@
     position: relative;
     z-index: 1;
     margin-top: 0px;
-    margin-bottom: -25px;
+    margin-bottom: -16px;
 }
 
 .theme-dark .members-1998pB {
@@ -3257,7 +3269,6 @@ div.avatar-large {
     -webkit-transition: -webkit-transform all 0.2s ease;
     border-bottom-color: hsla(0,0%,100%,.04);
     margin-top: 30px;
-    transition: all 0.2s ease !important;
 }
 
 .theme-dark .message-group .comment .markup {

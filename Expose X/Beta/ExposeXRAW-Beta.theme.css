@@ -7,14 +7,13 @@
 
 /* TO CHANGE BACKGROUND IMAGE, YOU NEED A CODE FROM THE EXPOSE.THEME.CSS FILE */
 
-
 /* Titlebar buttons */
 
 :root {
     --i-tbr-btninvert: 0%;
-    --i-tbr-closeimg: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
-    --i-tbr-maximizeimg: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
-    --i-tbr-minimizeimg: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); }
+    --i-tbr-closeimg: url("https://github.com/CorbsEditor/Themes-for-BetterDiscord/blob/master/Expose%20X/yomomgay.png?raw=true");
+    --i-tbr-maximizeimg: url("https://github.com/CorbsEditor/Themes-for-BetterDiscord/blob/master/Expose%20X/yomomgay.png?raw=true");
+    --i-tbr-minimizeimg: url("https://github.com/CorbsEditor/Themes-for-BetterDiscord/blob/master/Expose%20X/yomomgay.png?raw=true"); }
   
 
 

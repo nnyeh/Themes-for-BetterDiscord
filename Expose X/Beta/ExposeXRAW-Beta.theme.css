@@ -1,12 +1,86 @@
 //META{"name":"Expose X","description":" Support Server for Expose X: https://discord.gg/Pdz7jAH. Background is one entire color and you can add a custom background. Buttons are round and sexy blue. Supports the following plugins: Better Reddux, Server Folders, Birthday Plugin, and Clock plugin.","author":"Corbs","version":"AutoUpdate"}*//{}
 
 :root {
-    --version: "Expose X v1.0.6";
+    --version: "Expose X v1.0.7";
     --greybackground: #33363B !important;
 }
 
 /* TO CHANGE BACKGROUND IMAGE, YOU NEED A CODE FROM THE EXPOSE.THEME.CSS FILE */
+.downloadLink-2oSgiF {
+    -webkit-transition: opacity .15s ease;
+    color: #fff;
+    line-height: 30px;
+    opacity: 10.5;
+    text-decoration: none;
+    transition: opacity .15s ease;
+    background-color: #888888;
+    border-radius: 6px;
+}
+/* UPLOAD MODAL */ 
 
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .description-2ug5H_ .filename-ovv3c5 {
+    font-size: 0px;
+    font-weight: 500;
+    height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+    -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    -webkit-box-sizing: border-box;
+    background-color: #fff;
+    background-size: cover;
+    border: 2px solid #7289da;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    box-sizing: border-box;
+    height: 184px;
+    margin-left: -3px;
+    margin-right: 12px;
+    margin-top: -3px;
+    width: 503px;
+    opacity: 1;
+}
+
+/.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr {
+    opacity: 1;
+}
+
+.backdrop-1ocfXc {
+    background-color: transparent !important;
+    pointer-events: none;
+}
+
+.uploadModal-2ifh8j {
+    margin-bottom: 100%;
+    
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf {
+    margin: 0 18px;
+    margin-top: 93px;
+    margin-bottom: -270px;
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf .label-3aiqT2 {
+    font-size: 0px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo .channelTextAreaUpload-3t7EIx {
+    margin-bottom: 8px;
+
+}
+
+.theme-dark .inner-zqa7da {
+    background-color: hsla(218, 5%, 47%, 0);
+    margin-top: -8px;
+    visibility: hidd;
+
+}
 
 /* Titlebar buttons */
 
@@ -1559,140 +1633,6 @@
 .channelTextArea-rNsIhG {
     margin: 13px 0 6px;
 }
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
-    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0);
-    -webkit-box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0);
-    background-size: cover;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,.4);
-    box-sizing: border-box;
-    height: 445px;
-    margin-left: -416px;
-    margin-right: -605px;
-    margin-top: -42px;
-    width: 670px;
-    opacity: 1;
-}
-
-.uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf {
-    margin: 0 18px;
-    margin-left: -380px;
-    margin-right: 210px;
-}
-
-.uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf .label-3aiqT2 {
-    font-size: 0px;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .description-2ug5H_ .filename-ovv3c5 {
-    font-size: 0px;
-    font-weight: 500;
-    height: 18px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .description-2ug5H_ {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 78px;
-    overflow: hidden;
-    padding-right: 22px;
-    padding-top: -18px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin-top: 300px;
-}
-
-.uploadModal-2ifh8j .inner-3nWsbo .channelTextAreaUpload-3t7EIx {
-    margin-bottom: -63px;
-    margin-top: 244px;
-    width: 411px;
-}
-
-.uploadModalIn-1z07Vv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.one-2crnLX {
-    background-image: url(nothing);
-    opacity: 0;
-}
-
-.button {
-    -webkit-transition: background-color .2s ease;
-    background-color: #7289da;
-    border-radius: 63px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 16px;
-    padding: 10px 20px;
-    position: relative;
-    transition: background-color .2s ease;
-    width: auto;
-    margin-left: 113px;
-    margin-right: -100px;
-    margin-bottom: 10px;
-}
-
-.uploadModal-2ifh8j .inner-3nWsbo {
-    -ms-flex: 1;
-    -webkit-box-flex: 1;
-    border: 0px dashed #aab8e8;
-    border-radius: 10px 10px 0 0;
-    color: #fff;
-    flex: 1;
-    margin: 10px;
-    width: 410px;
-    margin-left: 400px;
-}
-
-
-
-.uploadModal-2ifh8j .footer-3mqk7D {
-    -ms-flex-direction: row;
-    -ms-flex-pack: end;
-    -webkit-box-direction: normal;
-    -webkit-box-orient: horizontal;
-    -webkit-box-pack: end;
-    background-color: rgba(91, 109, 174, 0);
-    border-radius: 0 0 10px 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 10px;
-    width: 520px;
-}
-
-.theme-dark .wrapper-1cBijl {
-    background-color: rgb(51, 54, 59);
-    border-color: rgb(51, 54, 59);
-}
-
-.uploadModal-2ifh8j {
-    -ms-flex-direction: column;
-    -webkit-box-direction: normal;
-    -webkit-box-orient: vertical;
-    -webkit-filter: blur(0);
-    -webkit-perspective: 1000;
-    background-color: rgba(114, 137, 218, 0);
-    border-radius: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    filter: blur(0);
-    flex-direction: column;
-    min-height: 258px;
-    perspective: 1000;
-    width: 520px;
-}
-
 /* Adding animations */
 
 

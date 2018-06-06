@@ -337,6 +337,30 @@
     right: 0px;
 }
 
+/* Circle background behind your Wumpus */
+
+.theme-dark #friends .friends-empty.section-pending .empty-state-image {
+    background-image: url(/assets/895c4e785aea2c4ce6d05abdef6936cd.png);
+    background-color: #2a2d30;
+    border-radius: 350px;
+    height: 300px;
+}
+
+.theme-dark #friends .friends-empty.section-blocked .empty-state-image {
+    background-image: url(/assets/3fc1e006a5e1857cdaeff54204a3dd72.png);
+    background-color: #2a2d30;
+    border-radius: 350px;
+    height: 300px;
+}
+
+.theme-dark #friends .friends-empty.section-add-friend-no-connection .empty-state-image {
+    background-image: url(/assets/e93cf1e3ece608112277cbfaf4ee15e0.png);
+    background-color: #2a2d30;
+    border-radius: 350px;
+    height: 300px;
+    background-size: 221px;
+}
+
 
 
 /* sexy tooltip */
@@ -1320,7 +1344,10 @@
 }
 
 /* */
-
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+    background-color: #202225;
+    color: #7289da;
+}
 
 /* Switch */
    /* Discord Settings */
@@ -1732,6 +1759,24 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
 .channel-textarea-emoji>.sprite-item {
     display: none;
 }
+
+.spriteNormal-1wvG5n {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: -0.5;
+}
+
+.spriteHovered-3lIo93 {
+    -webkit-filter: none;
+    -webkit-transform: scale(1.275);
+    filter: none;
+    opacity: 0;
+    transform: scale(1.275);
+}
+
+
+
+
 .emojiButton-2wRZts {
     position: relative;
     left: 5px;
@@ -2328,7 +2373,7 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
     background-clip: padding-box;
     background-color: #f04747;
-    border-radius: 0px 30px 30px 0px;
+    border-radius: 50px;
     box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
     color: #fff;
     display: inline-block;
@@ -2894,6 +2939,14 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
     display: flex;
     justify-content: center;
     margin-top: 4px;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+    background-color: #202225;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91:active {
+    background-color: #202225;
 }
 
 .typing-2GQL18 {
@@ -3638,9 +3691,7 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
 
 
 
-.theme-dark #friends .friends-empty.section-blocked .empty-state-image {
-    background-image: url(http://discordemoji.com/assets/emoji/partyblob.png);
-}
+
 
 /* Create or Join guild */
 

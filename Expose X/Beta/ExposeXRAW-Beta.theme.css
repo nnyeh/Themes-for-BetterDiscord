@@ -20,9 +20,28 @@
 /* Custom Background Editing */
    /* If you have the normal file, a code is already in there for this */
 
+   .container-2lgZY8 {   /* < That is what creates the black overlay */
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
    .appMount-3VJmYg {
     background-color: rgba(0, 0, 0, 0.25);
 }
+
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
+    background: rgba(54, 57, 63, 0);
+}
+
+.app-19_DXt {
+    -ms-flex: 1 1 auto;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    position: relative;
+    z-index: auto;
+    background-color: transparent;
+}
+
+
 
 /* Tool Tip */
 

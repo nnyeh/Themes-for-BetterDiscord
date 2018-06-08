@@ -1,8 +1,0 @@
-//META{"name":"Expose X","description":" Support Server for Expose X: https://discord.gg/Pdz7jAH. Background is one entire color and you can add a custom background. Buttons are round and sexy blue. Supports the following plugins: Better Reddux, Server Folders, Birthday Plugin, and Clock plugin.","author":"Corbs","version":"AutoUpdate"}*//{}
-
-@import url(https://cdn.rawgit.com/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/ExposeXRaw.theme.css);
-
-.appMount-3VJmYg {
-    background-image: url(IMAGE URL HERE); /* Please use this to change background image */
-    background-size: 100%;
-}

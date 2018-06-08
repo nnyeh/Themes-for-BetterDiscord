@@ -2,10 +2,6 @@
 
 @import url(https://rawgit.com/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Beta/ExposeXRAW-Beta.theme.css);
 
-:root {
-    --accent: rgb(114, 137, 218) !important; /* use this to change accent color */
-}
-
 .appMount-3VJmYg {
     background-image: url(IMAGE URL HERE); /* Please use this to change background image */
     background-size: 100%;

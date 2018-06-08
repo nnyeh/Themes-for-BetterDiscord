@@ -25,7 +25,7 @@
 }
 
    .appMount-3VJmYg {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.50);
 }
 
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
@@ -228,17 +228,24 @@
         background-size: 32px 33px;
         height: 50px;
         width: 50px;
+        background-color: transparent;
     }
 
-    .guilds-wrapper .guilds .friends-icon {
-        background-image: url(https://i.imgur.com/lPF4z01.png);
-        background-position: 50%;
-        background-repeat: no-repeat;
-        background-size: 32px 33px;
-        height: 50px;
-        width: 50px;
-        background-color: #202225;
+    a {
+        -webkit-transition: opacity .5s,color .5s;
+        color: rgba(0, 176, 244, 0);
+        cursor: pointer;
+        text-decoration: none;
+        transition: opacity .5s,color .5s;
     }
+
+
+
+/* Add Server Icon */
+
+.guilds-wrapper .guilds .guild:hover {
+    border-radius: 103px!important;
+}
 
 /* Channel List */
 
@@ -312,6 +319,29 @@
     background-color: rgba(56, 68, 88, 0);
 }
 
+.theme-dark .message-group:not(.has-divider) {
+    border-bottom-color: hsla(0, 0%, 100%, 0);
+}
+
+.theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div {
+    background: rgba(71, 74, 79, 0);
+}
+
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
+    background-color: rgba(54, 57, 62, 0);
+}
+
+.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #121315;
+}
+
+.bd-blue *[style*="background-color: rgb(114, 137, 218)"] {
+    background-color: rgba(58, 113, 193, 0) !important;
+}
+
+
+
 .theme-dark .chat form {
     -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
     background-color: rgba(54, 57, 63, 0);
@@ -384,38 +414,91 @@
     border-radius: 50px;
 }
 
-.private-channels .channel.selected a {
-    background-color: rgba(79,84,92,.6);
-    color: #fff;
-    border-radius: 50px;
-}
-
 .theme-dark .headerBar-UHpsPw {
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
     background: rgba(54, 57, 63, 0);
-    box-shadow: 0 0px 0 rgba(0, 0, 0, 0), 0 0px 0 rgba(0,0,0,.06);
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
 }
 
-.theme-dark .headerBar-UHpsPw {
-    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
-    background: rgba(54, 57, 63, 0);
-    box-shadow: 0 0px 0 rgba(0, 0, 0, 0), 0 0px 0 rgba(0,0,0,.06);
+.theme-dark #friends {
+    background-color: rgba(54, 57, 62, 0);
 }
 
 .theme-dark #friends .friends-table .friends-row:hover {
-    background: #414449;
-    border-color: transparent;
-    border-radius: 100px;
+    background: rgba(65, 68, 73, 0.5);
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+
 }
 
 .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
     background-color: rgba(47, 49, 54, 0);
+    transition: all 0.2s ease!important;
+
 }
 
-.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
-    background: -webkit-gradient(linear,left top,left bottom,from(rgba(54, 57, 62, 0)),to(rgba(47, 49, 54, 0)));
-    background: linear-gradient(-180deg,rgba(54, 57, 62, 0),rgba(47, 49, 54, 0));
-    border-bottom: 1px solid rgba(0, 0, 0, 0);
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
+    background-color: rgba(79, 84, 92, 0);
+    transition: all 0.2s ease!important;
+
+}
+
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
+    background-color: rgba(79, 84, 92, 0);
+    transform: scale(1.1);
+    transition: all 0.2s ease!important;
+}
+
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover {
+    background-color: #f04747!important;
+    border-radius: 30px;
+}
+
+/* Server settings page */
+
+.theme-dark .ui-standard-sidebar-view {
+    background: rgba(54, 57, 63, 0);
+}
+
+.theme-dark .ui-standard-sidebar-view {
+    background: rgba(54, 57, 63, 0);
+}
+
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+    background: rgba(0, 0, 0, 0.50);
+}
+
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: rgba(0, 0, 0, 0.50);
+}
+
+.side-8zPYf6 .itemSelected-1qLhcL {
+    background-color: #7289da;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover {
+    background-color: hsla(216,4%,74%,.1);
+    color: #f6f6f7;
+    border-radius: 50px;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background-color: #677bc4;
+    border-radius: 30px;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background-color: #7289da;
+    color: #fff;
+    border-radius: 30px;
+}
+
+/* Buttons in Settings page | Default */
+
+.themeDefault-24hCdX.valueChecked-m-4IJZ {
+    background-color: #7289da;
 }
 
 
@@ -424,22 +507,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ============================================================================ */
 /* PLUGINS */ /*PLUGINS*/ /* PLUGINS */ /*PLUGINS*/ /* PLUGINS */ /*PLUGINS*/
 
 /* Citador */

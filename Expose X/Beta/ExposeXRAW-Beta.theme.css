@@ -39,6 +39,7 @@
     position: relative;
     z-index: auto;
     background-color: transparent;
+    background-size: 100%;
 }
 
 
@@ -129,7 +130,7 @@
 
 .guilds-wrapper .guilds {
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: show;
 }
 
 .guilds-wrapper .guilds .guild .guild-inner {

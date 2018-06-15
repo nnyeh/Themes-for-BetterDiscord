@@ -2,6 +2,87 @@
     --version: "Expose X v1.0.7";
 }
 
+/* Upload Menu in chat bar */
+
+.theme-dark .attachPopout-1n-ZKM {
+    background-color: transparent;
+}
+
+.attachPopoutRow-KrE-f6 {
+    background-color: #282b30;
+    margin-top: 5px;
+    border-radius: 50px;
+}
+
+/* Context menu */
+
+.theme-dark.contextMenu-HLZMGh {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.theme-dark .item-1Yvehc {
+    background-color: #282b30;
+    border-radius: 30px;
+}
+
+.theme-dark .item-1Yvehc:hover {
+    color: white;
+    background-color: #282b30;
+    border-radius: 30px;
+}
+
+.checkbox .checkbox-inner span {
+    -webkit-box-sizing: border-box;
+    -webkit-transition: .24s;
+    border: 2px solid #cdcdcd;
+    border-radius: 22px;
+    bottom: 0;
+    box-sizing: border-box;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .24s;
+}
+
+/* Drop down server menu */
+
+.theme-dark .menu-Sp6bN1 {
+    background: transparent;
+}
+
+.theme-dark .item-1GzJrl {
+    color: hsla(0,0%,100%,.6);
+    background-color: #282b30;
+    border-radius: 50px;
+    margin-top: 5px;
+    height: 30px;
+}
+
+.theme-dark .separator-2zcjq8 {
+    border-bottom-color: hsla(0, 0%, 96%, 0);
+}
+
+/* Hamburger menu | Message */
+
+.small-popout-box {
+    background: transparent;
+    border: 0px;
+}
+
+.option-popout .btn-item {
+    background-color: #282b30;
+    border-radius: 30px;
+    margin-top: 2px;
+}
+
+.option-popout .btn-item:hover {
+    color: white;
+    background-color: #282b30;
+    border-radius: 30px;
+    margin-top: 2px;
+}
 
 /* Showing Version number of Expose X */
 
@@ -40,6 +121,23 @@
     z-index: auto;
     background-color: transparent;
     background-size: 100%;
+}
+
+/* macOS Traffic Light Buttons */
+
+.titleBar-AC4pGV {
+    -webkit-app-region: drag;
+    z-index: 3001;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 3px;
+    margin-left: 15px;
+}
+
+/* NSFW WARNING! AHHHHHHHHHHHHHHHH LOGAN PAUL MY DUDES */
+
+.theme-dark .image-3fVkBI {
+    background-image: url(https://pre00.deviantart.net/2c7d/th/pre/i/2017/203/6/3/logan_paul_by_pixelord56-dbh8k2g.png);
+    border-radius: 260px;
 }
 
 /* Scrollbar in Chat */
@@ -595,6 +693,43 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
         transition: opacity .5s,color .5s;
     }
 
+    /* Voice Icon */
+
+    .guilds-wrapper .guilds .guild.audio .guild-inner:after, .guilds-wrapper .guilds .guild.video .guild-inner:after {
+        background-color: rgba(30, 33, 36, 0.71);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: 16px;
+        border-radius: 112px;
+        content: " ";
+        height: 53px;
+        overflow: hidden;
+        pointer-events: none;
+        position: absolute;
+        right: -1px;
+        top: -1px;
+        width: 53px;
+    }
+
+    /* Mention Badge on Server Icon */
+
+    .guilds-wrapper .guilds .guild .badge {
+        bottom: -2px;
+        pointer-events: none;
+        position: absolute;
+        right: -2px;
+        height: 40px;
+        top: 2px;
+        left: 0px;
+        border-radius: 50px;
+        width: 38px;
+    }
+
+    .badge {
+        background-color: rgba(240, 71, 71, 0.51);
+        font-size: 32px;
+        line-height: 34px;
+    }
 
 
 /* Create or Join guild */
@@ -926,15 +1061,30 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
 
 /* Buttons in Settings page | Default */
 
-.themeDefault-24hCdX.valueChecked-m-4IJZ {
-    background-color: #7289da;
-}
+    /* On */
 
+    .themeDefault-24hCdX.valueChecked-m-4IJZ {
+        background-color: #7289da;
+        width: 25px;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
 
+    .valueChecked-m-4IJZ.sizeDefault-2YlOZr:after {
+        -webkit-transform: translate3d(18px,0,0);
+        transform: translate3d(18px,0,0);
+        margin-left: -14px;
+    }
 
+    
 
+    /* Off */
 
-
+    .themeDefault-24hCdX.sizeDefault-2YlOZr {
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.15);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.15);
+        width: 25px;
+    }
 
 /* ============================================================================ */
 /* PLUGINS */ /*PLUGINS*/ /* PLUGINS */ /*PLUGINS*/ /* PLUGINS */ /*PLUGINS*/

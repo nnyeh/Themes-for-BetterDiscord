@@ -468,7 +468,17 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
     }
 }
 
+/* NO TEXT CHANNELS */
 
+.theme-dark .noChannel-Z1DQK7 {
+    background-color: transparent;
+}
+
+/* Search bar above chat */
+
+.theme-dark .search .search-bar {
+    background-color: transparent;
+}
 
 
 /* Avatars in Chat */
@@ -524,7 +534,7 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
 }
 
 .typeWindows-1za-n7 {
-    height: 10px;
+    height: 13px;
     margin-top: 0px;
 }
 
@@ -535,7 +545,7 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
     opacity: 0;
     pointer-events: auto;
     position: relative;
-    top: -40px;
+    top: -37px;
     width: 28px;
     background-color: white;
 }
@@ -547,7 +557,7 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
 .titleBar-AC4pGV {
     -webkit-app-region: drag;
     z-index: 3001;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -1452,6 +1462,52 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
     border-color: rgba(0,0,0,.3);
     color: #f6f6f7;
     border-radius: 50px !important;
+}
+
+/* Detailed Server Tooltip */
+
+.tooltip.tooltip-right {
+    margin-left: 18px;
+}
+
+.dst-tooltip-icon {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 105px;
+    margin-top: 5px;
+    flex: 1;
+}
+
+.dst-tooltip {
+    width: 100%;
+    max-width: 725px;
+    text-align: left;
+    background-color: #7289da;
+    color: white;
+}
+
+.dst-tooltip-label {
+    color: white;
+    margin-top: 14px;
+    font-size: 13px;
+    margin-left: 220px;
+    top: 0px;
+}
+
+.dst-tooltip-icon {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 105px;
+    margin-top: 5px;
+    flex: 1;
+    margin-bottom: -180px;
+}
+
+.dst-tooltip:after {
+    border-right-color: rgba(114, 137, 218, 0);
+    top: 6.5% !important;
 }
 
 /* ===================================================== */

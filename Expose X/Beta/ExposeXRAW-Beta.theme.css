@@ -1,5 +1,5 @@
 :root {
-    --version: "Expose X v1.0.7";
+    --version: "v1.0.7";
 }
 
 /* Upload Menu in chat bar */ 
@@ -93,9 +93,9 @@
     font-weight: 500;
     position: fixed;
     -webkit-app-region: drag;
-    left: 20px;
-    bottom: 6px;
-    width: 78px;
+    left: 2px;
+    bottom: 1px;
+    width: 100px;
 }
 
 /* Custom Background Editing */

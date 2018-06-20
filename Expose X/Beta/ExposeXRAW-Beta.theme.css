@@ -2,7 +2,7 @@
     --version: "Expose X v1.0.7";
 }
 
-/* Upload Menu in chat bar */
+/* Upload Menu in chat bar */ 
 
 .theme-dark .attachPopout-1n-ZKM {
     background-color: transparent;
@@ -123,7 +123,7 @@
     background-size: 100%;
 }
 
-/* macOS Traffic Light Buttons */
+/* macOS Traffic Light Buttons| Tags: Titlebar buttons,  */
 
 .titleBar-AC4pGV {
     -webkit-app-region: drag;
@@ -151,7 +151,7 @@
     border-color: rgba(54, 57, 62, 0);
 }
 
-/* Upload Modal */
+/* Upload Modal | TAGS: Image, File, GIF, Video, Audio. */
     /* size of modal */
 .uploadModal-2ifh8j {
     min-height: 438px;
@@ -913,11 +913,9 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
     background-color: hsla(218, 5%, 47%, 0);
 }
 
-/* Typing Modal */
-
-.theme-dark .typing-2GQL18 {
-    background-color: rgba(54, 57, 62, 0);
-    bottom: -3px;
+.typing-2GQL18 {
+    background-color: transparent !important;
+    margin-bottom: 45px;
 }
 
 /* Members Tab */

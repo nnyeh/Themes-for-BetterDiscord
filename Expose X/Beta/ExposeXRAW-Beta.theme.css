@@ -234,8 +234,30 @@
 /* Drop down server menu */
 
 .theme-dark .menu-Sp6bN1 {
+    -webkit-box-shadow: 0 0 0px rgba(0,0,0,0), 0 0px 0px rgba(0,0,0,0);
+    background: #282b30;
+    box-shadow: 0 0 0px rgba(0,0,0,0), 0 0px 0px rgba(0,0,0,0);
+}
+
+.theme-dark .menu-Sp6bN1 {
     background: transparent;
 }
+
+.popout-3sVMXz {
+    -webkit-box-shadow: 0 0 0px rgba(0,0,0,.0), 0 0px 0px rgba(0,0,0,0);
+    -webkit-filter: blur(0);
+    border-radius: 5px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0,0,0,0);
+    contain: layout;
+    padding: 0;
+    z-index: 1000;
+}
+
+.popout-open .header-2o-2hj {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
 
 .theme-dark .item-1GzJrl {
     color: hsla(0,0%,100%,.6);

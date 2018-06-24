@@ -1,7 +1,5 @@
-//META{"name":"Expose X","description":" Support Server for Expose X: https://discord.gg/Pdz7jAH. Background is one entire color and you can add a custom background. Buttons are round and sexy blue. Supports the following plugins: Better Reddux, Server Folders, Birthday Plugin, and Clock plugin.","author":"Corbs","version":"AutoUpdate"}*//{}
-
 :root {
-    --version: "v1.0.7";
+    --version: "v1.0.71";
 }
 
 /* Games tab */
@@ -408,9 +406,12 @@
 
 
 
+
+
+
 /*=============================================
-=               Status Picker                 =        From Materialized (FrozySeven)
-=============================================*/            MODIFIED BY CORBS 
+=               Status Picker                 =
+=============================================*/
 
 .popout-3sVMXz.popoutTop-3uu9vG-left {
 	box-shadow: none;
@@ -430,7 +431,7 @@
 	align-items: center;
 	justify-content: center;
     position: fixed;
-    pointer-events: visible;
+    pointer-events: inherit;
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -445,8 +446,8 @@
     margin-left: 10px;
     border-radius: 3px;
     width: auto;
-    display: inline-block;
-    background: rgba(14, 14, 14, 0)!important;
+	display: inline-block;
+    background: transparent !important;
     animation: statuspicker-status 300ms ease;
     animation-delay: 0ms;
     animation-fill-mode: forwards;
@@ -454,11 +455,9 @@
 }
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:hover {
     background: transparent !important;
-    transition: all 0.2s ease!important;
-    margin-top: -10px;
 }
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:active {
-    background: transparent !important;
+    background: #525252!important;
     margin-top: 10px;
 }
 .menu-Sp6bN1.alt-3btY0e .separator-2zcjq8 {
@@ -484,7 +483,7 @@
 @keyframes statuspicker-status {
     from {
         opacity: 0;
-        transform: translate(0, 100%);
+        transform: translate(0, 50%);
     }
     to {
         opacity: 1;
@@ -497,13 +496,16 @@
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl .status:hover {
     transition: all 0.2s ease!important;
 }
+.menu-Sp6bN1.alt-3btY0e .status-3fQvEa {
+    padding: 20px;
+}
 .alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH > div {
     font-size: 0px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-of-type(1) .status {
     z-index: 5;
-	background-color:#43b581;
+    background-color:#43b581;
     animation: statuspicker-status 300ms ease;
     animation-delay: 0ms;
     animation-fill-mode: forwards;
@@ -560,7 +562,7 @@
     align-items: center;
 }
 .alt-3btY0e .item-1GzJrl:nth-of-type(4):hover .helper-2c73HK  {
-    background-color: rgba(192, 63, 63, 0);
+    background-color: #C03F3F;
     color: white;
     display: flex;
 	align-items: center;
@@ -574,13 +576,14 @@
     width: 550px;
     height: 20px;
     padding: 12px 5px;
-    border-radius: 25px;
-    font-size: 0px;
+    border-radius: 3px;
+    font-size: 16px;
     font-weight: 100;
     text-align: center;
     pointer-events: none;
     opacity: 1;
-    animation: opacity 300ms ease;
+    animation: statuspicker-status 300ms ease;
+    visibility: hidden;
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-of-type(5) .status {
@@ -602,9 +605,10 @@
     display: block;
     position: fixed;
     bottom: 20px;
+    visibility:  hidden;
 }
 .alt-3btY0e .item-1GzJrl:nth-of-type(5):hover .helper-2c73HK:last-child  {
-    background-color: rgba(58, 62, 67, 0);
+    background-color: #3A3E43;
     color: white;
     display: flex;
 	align-items: center;
@@ -618,18 +622,15 @@
     width: 550px;
     height: 20px;
     padding: 12px 5px;
-    border-radius: 25px;
-    font-size: 0px;
+    border-radius: 3px;
+    font-size: 16px;
     font-weight: 100;
     text-align: center;
     pointer-events: none;
     opacity: 1;
-    animation: opacity 300ms ease;
+    animation: statuspicker-status 300ms ease;
 }
 
-
-/* ===================== */
-/*   End Status Picker   */
 
 
 /* Animations */

@@ -812,7 +812,7 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
 
 .guilds-wrapper .guilds {
     overflow-x: hidden;
-    overflow-y: show;
+    overflow-y: hidden;
 }
 
 .guilds-wrapper .guilds .guild .guild-inner {
@@ -1822,6 +1822,107 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
 .dst-tooltip:after {
     border-right-color: rgba(114, 137, 218, 0);
     top: 6.5% !important;
+}
+
+/* Members Count */
+
+.theme-dark #memberCount {
+    color: hsla(0, 0%, 100%, 0.4);
+    background: rgba(47, 49, 54, 0) !important;
+}
+
+#memberCount {
+    position: absolute;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: left !important;
+    padding: 0.9vh 0;
+    z-index: 5;
+    margin-left: 15px !important;
+}
+
+/* VIP */
+
+.VIP:active {
+    transform: scale(1.1) !important;
+}
+
+/* Channel History */
+
+.channelHistoryButtons {
+    color: #999;
+    font-weight: bold;
+    position: absolute;
+    left: 71px;
+    top: unset !important;
+    bottom: 5px !important;
+    left: 299px !important;
+}
+
+/* Charater Count */
+
+#charcounter.normal {
+    right: 0;
+    bottom: -9px !important;
+}
+
+#charcounter {
+    display: block;
+    position: absolute;
+    opacity: .5;
+    z-index: 1000;
+    pointer-events: none;
+    font-size: 10px !important;
+}
+
+/* Friends Counter */
+
+.theme-dark #friends .tab-bar .tab-bar-item .badge {
+    background-color: transparent !important;
+    color: grey !important;
+    height: 10px !important;
+    margin-top: -10px;
+}
+
+/* Display Servers as Channels */
+
+.guilds-wrapper.DSAC-styled .guild-separator ~ .guild .guilds-error {
+    border: none !important;
+    background-color: transparent !important;
+    margin-left: -5px;
+    line-height: 32px;
+} 
+
+.guilds-wrapper.DSAC-styled .guild-separator ~ .guild:not(.selected):hover {
+    background-color: transparent !important;
+    border: none;
+}
+
+.guilds-wrapper.DSAC-styled .guild-separator ~ .guild:not(.selected) {
+    background-color: transparent !important;
+    border: none;
+}
+
+.guilds-wrapper.DSAC-styled .guild-separator ~ .guild .guild-inner {
+    background-color: transparent !important;
+}
+
+/* Logger */
+
+button#dl-log-button {
+    border-radius: 50px;
+    margin-left: -7px;
+    background-color: transparent;
+    color: white;
+}
+
+.scrollerWrap-2uBjct.content-1Cut5s.scrollerThemed-19vinI.themeGhostHairline-2H8SiW.da-scrollerWrap.da-content.da-scrollerThemed.da-themeGhostHairline {
+    color: white;
+    background-color: darkslategray;
 }
 
 /* ===================================================== */

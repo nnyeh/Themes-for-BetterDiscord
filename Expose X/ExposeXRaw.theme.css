@@ -812,7 +812,7 @@ body:active .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"
 
 .guilds-wrapper .guilds {
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: show;
 }
 
 .guilds-wrapper .guilds .guild .guild-inner {
